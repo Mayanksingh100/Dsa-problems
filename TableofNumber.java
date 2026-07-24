@@ -5,7 +5,7 @@ public class TableofNumber {
    Scanner sc = new Scanner(System.in);
    System.out.println("Enter the number for table: ");
    int n = sc.nextInt();
-   for (int i=n; i<11 ; i++){
+   for (int i=1; i<11 ; i++){
     System.out.println(i*n);
    }
   }

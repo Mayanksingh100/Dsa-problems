@@ -1,9 +1,38 @@
-package patterns;
+package functions;
+
 
 import java.util.*;
 
 public class Function {
+
+
+
+  
+  /*
+
+  // create a function to  calculate the average of three numbers input by user
+
+ public static int averageOfNumbers(int a, int b,int c) {
+    int average =  (a+b+c)/3;
+    return average;
+  }
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+
+    int average = averageOfNumbers(a,b,c);
+    System.out.println("Average of three numbers is : " + average);
+    sc.close();
+   
+  }
+
+
+  Q. create a function for factorial numbers.
 public static void printFactorial(int n){
+  
+  
   // loop
   if (n < 0){
     System.out.println("invalid number");
@@ -27,9 +56,6 @@ public static void main(String[] args) {
 
 }
 
-
-
- /* 
 Q. Create a function that takes two integers as input and returns their sum. 
 public class Function {
   public static int calculateSum(int a, int b) {
@@ -47,9 +73,9 @@ public class Function {
    
   }
 }
-*/
+  // for print name with the function
 
-/*
+
 public class Function {
   public static void printMyName(String name )  {
     System.out.println(name);
